@@ -23,7 +23,7 @@ namespace PrintConsoleTry
 
             Console.Write(str);
             sr = new StreamReader(str);
-            Console.Write("Are You Sure (Y/N): ");
+            Console.Write("Are You Sure?(Y/N): ");
             c = Console.ReadLine();
 
             if (c == "Y" || c == "y")
@@ -48,6 +48,7 @@ namespace PrintConsoleTry
             printFont.Dispose();
             printFont = null;
             sr.Close();
+            Console.WriteLine("It's Over.");
         }
 
         private static void PD_10PrintPage(object sender, PrintPageEventArgs e)
