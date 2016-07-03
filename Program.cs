@@ -39,7 +39,7 @@ namespace PrintConsoleTry
                 pD.Print();
             }
             else if (c == "N" || c == "n") Console.WriteLine("Not Printing");
-            else Console.WriteLine("Fail");
+            else Console.WriteLine("Unsuccessful");
             Console.ReadLine();
         }
 
