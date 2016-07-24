@@ -38,7 +38,7 @@ namespace PrintConsoleTry
 
                 pD.Print();
             }
-            else if (c == "N" || c == "n") Console.WriteLine("Not Printing");
+            else if (c == "N" || c == "n") Console.WriteLine("It is cancelled.");
             else Console.WriteLine("Unsuccessful");
             Console.ReadLine();
         }
